@@ -9,4 +9,3 @@ export const createApp = () => {
     app.use(router)
     return app
 }
-
