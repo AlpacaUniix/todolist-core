@@ -1,5 +1,5 @@
-import { createApp } from 'app'
-import { dataSource } from 'dataSource'
+import { createApp } from './app'
+import { dataSource } from './dataSource'
 import { HOST, NODE_ENV, PORT } from './config'
 
 const connect: () => void = () =>
