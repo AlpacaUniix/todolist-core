@@ -3,5 +3,5 @@ import { todoRouter } from './event';
 
 const router = Router();
 
-router.use('/', todoRouter);
+router.use('/task', todoRouter);
 export default router;

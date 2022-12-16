@@ -16,7 +16,7 @@ import {
     @Column({type: Date,nullable: true})
     date: Date | null;
 
-    @Column({type: Boolean})
+    @Column({type: Boolean, default: false})
     isCheck: boolean;
 
   }
