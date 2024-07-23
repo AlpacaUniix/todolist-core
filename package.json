@@ -1,5 +1,5 @@
 {
-   "name": "my-back",
+   "name": "todolist-core",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "type": "commonjs",
@@ -28,8 +28,8 @@
       "dev": "nodemon --exec ts-node src/index.ts",
       "typeorm": "typeorm-ts-node-commonjs"
    },
-   "main": "index.js",
-   "repository": "https://github.com/AlpacaUniix/back-todo.git",
-   "author": "AlpacaUniix <supatsara_wan@cmu.ac.th>",
+   "main": "src/index.ts",
+   "repository": "https://github.com/AlpacaUniix/todolist-core.git",
+   "author": "AlpacaUniix <supatsara.wnps@gmail.com>",
    "license": "MIT"
 }
